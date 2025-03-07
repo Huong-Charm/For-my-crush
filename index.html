@@ -3,37 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chúc Mừng 8/3</title>
+    <title>Chúc Bạn hà mùng 8/3 💖!</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Arial', sans-serif;
             text-align: center;
-            background-color: #ffe6e6;
-            color: #d63384;
+            background: linear-gradient(to right, #ff9a9e, #fad0c4);
+            color: #fff;
             padding: 50px;
+            margin: 0;
         }
         .card {
-            background: white;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            background: rgba(255, 255, 255, 0.9);
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
             display: inline-block;
+            max-width: 400px;
+            color: #d63384;
+            animation: fadeIn 1.5s ease-in-out;
         }
         h1 {
             color: #ff4081;
+            font-size: 28px;
         }
         .flower {
-            width: 100px;
+            width: 120px;
             margin-top: 20px;
+            animation: bloom 2s infinite alternate;
+        }
+        p {
+            font-size: 18px;
+            font-weight: bold;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        @keyframes bloom {
+            from { transform: scale(0.9); }
+            to { transform: scale(1); }
         }
     </style>
 </head>
 <body>
     <div class="card">
-        <h1>Chúc Mừng Ngày 8/3!</h1>
-        <p>Chúc Hà luôn xinh đẹp, hạnh phúc và tràn đầy niềm vui!</p>
+        <h1>🌸 Chúc Mừng Ngày 8/3! 🌸</h1>
+        <p>Chúc bạn Hà luôn xinh đẹp, hạnh phúc và tràn đầy niềm vui! 💖</p>
         <img class="flower" src="https://cdn.pixabay.com/photo/2016/03/27/18/28/rose-1285961_1280.png" alt="Hoa hồng">
-        <p>Chúc bạn một ngày tuyệt vời!</p>
+        <p>Chúc cậu có một ngày tuỵt vời <33! 🌷</p>
     </div>
 </body>
 </html>
+
